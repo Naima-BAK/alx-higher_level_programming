@@ -1,15 +1,17 @@
 #!/usr/bin/python3
 """
-my Square class
+The Square class
 """
 
 
 class Square:
-
+    """
+    Represents a square
+    """
     pass
 
 
 if __name__ == "__main__":
-    sqr = Square()
-    print(type(sqr))
-    print(sqr.__dict__)
+    square = Square()
+    print(type(square))
+    print(square.__dict__)
